@@ -4,9 +4,7 @@
 {{ end }}
 
 {{ if not (in (slice "light-without-switcher" "dark-without-switcher" "auto-without-switcher") $style) }}
-    <button class="theme-switcher">
-        {{ i18n "darkTheme" }}
-    </button>
+
 {{ end }}
 
 <script>

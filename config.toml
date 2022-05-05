@@ -1,0 +1,45 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Quantum 0x | Web3 UX Engineer"
+theme = "anubis"
+paginate = 3
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+name = "Quantum 0x"
+
+[params]
+author = "Quantum 0x"
+description = "Anubis is a simple minimalist theme for Hugo blog engine."
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "auto"
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+
+# Graphcomment support
+graphcommentId = ""
+
+# utteranc.es support
+utterancesRepo = ""  # mandatory
+utterancesTheme = "" # optional
+utterancesIssue = "" # optional
+utterancesLabel = "" # optional
+  
+
+[[params.social]]
+id = "github"
+url = "https://github.com/quantum-0x"
+
+[[params.social]]
+id = "twitter"
+url = "https://twitter.com/quantum_0x"
+
+
+[markup.goldmark.renderer]
+unsafe = true
