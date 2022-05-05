@@ -1,7 +1,7 @@
 baseURL = "https://blog.devquantum.xyz"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Quantum 0x | Web3 UX Engineer"
+title = "Quantum0x | Web3 UX Engineer"
 theme = "anubis"
 paginate = 3
 
@@ -20,7 +20,7 @@ style = "auto"
 readMore = false
 readNextPosts = 2
 copyCodeButton = true
-rssAsSocialIcon = true
+rssAsSocialIcon = false
 
 # Graphcomment support
 graphcommentId = ""
@@ -37,9 +37,12 @@ id = "github"
 url = "https://github.com/quantum-0x"
 
 [[params.social]]
-id = "twitter"
-url = "https://twitter.com/quantum_0x"
+id = "telegram"
+url = "https://t.me/quantum0x"
 
+[[params.social]]
+id = "email"
+url = "mailto:helloquantum0x@gmail.com"
 
 [markup.goldmark.renderer]
 unsafe = true
