@@ -1,5 +1,5 @@
 languageCode: "en-us"
-baseUrl: ""
+baseUrl: "https://blog.devquantum.xyz"
 title: "Quantum"
 theme: "anubis"
 paginate: 5
@@ -15,7 +15,7 @@ menu:
     weight: 0
 
 params:
-  author: "Thanni"
+  author: "Quantum0x"
   email: mail@example.org # used for microformats
   avatar: "/images/me.png" # used for microformats
   description: ""
