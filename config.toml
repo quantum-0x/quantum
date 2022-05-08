@@ -33,6 +33,10 @@ utterancesLabel = "" # optional
   
 
 [[params.social]]
+id = "portfolio"
+url = "https://devquantum.xyz"
+
+[[params.social]]
 id = "github"
 url = "https://github.com/quantum-0x"
 
