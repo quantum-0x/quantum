@@ -641,6 +641,7 @@ article figcaption {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 ul.language-select, ul.footer-menu {
